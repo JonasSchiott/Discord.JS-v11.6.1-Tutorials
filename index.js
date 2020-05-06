@@ -27,7 +27,7 @@ fs.readdir("./commands/", (err, files) => {   //defines the folder in which the 
             bot.aliases.set(alias, pull.config.name)
         }); //closing the aliases search
     }); //closing the forEach function
-}); //closing the hole command handler
+}); //closing the whole command handler
 
 
 
